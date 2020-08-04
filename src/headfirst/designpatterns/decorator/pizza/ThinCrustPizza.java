@@ -1,8 +1,8 @@
 package headfirst.designpatterns.decorator.pizza;
 
-public class ThincrustPizza extends Pizza {
+public class ThinCrustPizza extends Pizza {
 
-    public ThincrustPizza() {
+    public ThinCrustPizza() {
         description = "Thin crust pizza, with tomato sauce";
     }
 

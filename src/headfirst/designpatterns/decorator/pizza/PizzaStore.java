@@ -3,7 +3,7 @@ package headfirst.designpatterns.decorator.pizza;
 public class PizzaStore {
 
     public static void main(String args[]) {
-        Pizza pizza = new ThincrustPizza();
+        Pizza pizza = new ThinCrustPizza();
         Pizza cheesePizza = new Cheese(pizza);
         Pizza greekPizza = new Olives(cheesePizza);
 

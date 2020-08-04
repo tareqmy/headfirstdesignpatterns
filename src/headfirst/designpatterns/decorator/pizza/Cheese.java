@@ -2,7 +2,6 @@ package headfirst.designpatterns.decorator.pizza;
 
 public class Cheese extends ToppingDecorator {
 
-
     public Cheese(Pizza pizza) {
         this.pizza = pizza;
     }
